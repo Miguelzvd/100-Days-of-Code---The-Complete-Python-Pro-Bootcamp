@@ -3,6 +3,7 @@ from art import logo
 should_continue = True
 bids = {}
 
+
 # TODO-4: Compare bids in dictionary
 def find_highest_bidder(bidding_dictionary):
     best_bid = 0
@@ -18,8 +19,6 @@ def find_highest_bidder(bidding_dictionary):
 
 
 print(logo)
-
-
 
 while should_continue:
     # TODO-1: Ask the user for input
