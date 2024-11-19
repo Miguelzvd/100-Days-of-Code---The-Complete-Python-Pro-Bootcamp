@@ -4,4 +4,11 @@ def format_name(f_name, l_name):
     return f"{formated_f_name} {formated_l_name}"
 
 
+def canBuyAlcohol(age):
+    if age >= 18:
+        return True
+    else:
+        return False
+
+
 print(format_name("AnGEla", "YU"))
